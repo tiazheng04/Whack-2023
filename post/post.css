@@ -35,3 +35,15 @@ nav img{
     width : 25px;
     height : 25px;
 }
+
+nav ul input[type=text]{
+    background-color: rgba(229, 229, 229, 0.776);
+    margin: 0px;;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 20%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
