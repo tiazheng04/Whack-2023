@@ -87,11 +87,20 @@ form td, tr{
 
 }
 
-.gallery h1{
+h1{
     font-family: "Helvetica";
     text-align: center;
     padding-top: 30px;
     letter-spacing: 3pt;
     font-size: 40pt;
     color: rgb(63, 120, 88);
+}
+.gallery img{
+    width: 300px;
+    height: auto;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
