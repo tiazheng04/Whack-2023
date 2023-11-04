@@ -52,27 +52,29 @@ nav img{
 form {
     justify-content: right;
     display: inline-block; /* Add this to make the form appear inline with the blurb */
-    margin-left: 20px; /* Add margin to separate the blurb and the form */
+    margin-left: 50px; /* Add margin to separate the blurb and the form */
     margin-right: 5px;
     font-family: "Helvetica";
     background-color: rgba(245, 245, 245, 0.717);
+    padding-bottom: 20px;
 }
 
-form table{
-    border: 2px solid #f1f1f1;
+form td, tr{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .blurb{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
     margin-left: 50px;
     font-family: "Helvetica";
     font-size: 15pt;
-
+    color: whitesmoke;
     padding: 10px; 
     width: 350px;
     text-align: center; 
-    background-color: #7edaa2ae; 
+    background-color: rgba(63, 120, 88, 0.9); 
 }
 
 #login{
@@ -80,7 +82,16 @@ form table{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-image: url(./globe.jpg);
     background-size:cover ;
 
+}
+
+.gallery h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
 }
