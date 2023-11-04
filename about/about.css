@@ -1,0 +1,52 @@
+body{
+    background-image:url("./culture.png") ;
+    background-size:cover ;
+    padding-left:40pt ;
+    padding-right: 40pt;
+    padding-top: 10;
+}
+
+.ABOUTUS{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+}
+.Mission{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+}
+.Members{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+}
+.text{
+    background-color: #f5f5f5d8;
+    padding:20pt
+}
+
+header{
+    font-family:"Helvetica"
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul a:link{
+    flex-grow:1;
+    text-align:center;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+
+}
