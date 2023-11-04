@@ -63,7 +63,7 @@ form table{
 }
 
 .blurb{
-    display: inline-block; /* Change 'flex' to 'inline-block' */
+    display: inline-block;
     margin-right: 20px;
     margin-left: 50px;
     font-family: "Helvetica";
