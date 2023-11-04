@@ -16,3 +16,22 @@ nav ul a:link{
     padding:10pt;
 
 }
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+}
+
+#socialMedia img{
+    width : 25px;
+    height : 25px;
+    margin : 10px;
+}
+nav img{
+    width : 25px;
+    height : 25px;
+}
