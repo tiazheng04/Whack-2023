@@ -17,6 +17,18 @@ nav ul a:link{
 
 }
 
+nav ul input[type=text]{
+    background-color: rgba(229, 229, 229, 0.776);
+    margin: 0px;;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 40%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
+
 footer{
     display: flex;
     justify-content: right;
@@ -42,6 +54,8 @@ form {
     display: inline-block; /* Add this to make the form appear inline with the blurb */
     margin-left: 20px; /* Add margin to separate the blurb and the form */
     margin-right: 5px;
+    font-family: "Helvetica";
+    background-color: rgba(245, 245, 245, 0.717);
 }
 
 form table{
@@ -62,8 +76,11 @@ form table{
 }
 
 #login{
-    padding: 20px;
+    padding: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size:cover ;
+
 }
