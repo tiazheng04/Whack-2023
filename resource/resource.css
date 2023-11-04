@@ -16,7 +16,19 @@ nav ul a:link{
     padding:10pt;
 
 }
+nav ul input[type=text]{
+    background-color: rgba(229, 229, 229, 0.776);
+    margin: 0px;;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 40%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
 
+}
 footer{
     display: flex;
     justify-content: right;
@@ -52,3 +64,16 @@ body{
     font-weight: lighter;
     letter-spacing:1px;
 }
+
+.website ul a:link{
+    text-decoration:none
+
+}
+
+.Books {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
