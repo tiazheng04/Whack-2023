@@ -4,7 +4,7 @@
 }
 
 header{
-    font-family:"Helvetica"
+    font-family:"Helvetica";
 }
 
 #topbar{
@@ -52,7 +52,7 @@ header h1{
     text-align: center;
     padding-top: 30px;
     letter-spacing: 3pt;
-    font-size: 40pt;
+    font-size: 50pt;
     color: rgb(63, 120, 88);
 }
 
@@ -123,3 +123,4 @@ nav ul input[type=text]{
     padding: 2px 23px 2px 30px;
     outline: 0;
 }
+
