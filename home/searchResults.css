@@ -67,49 +67,6 @@ nav img{
     height : 25px;
 }
 
-form {
-    justify-content: right;
-    padding-top: 30px;
-    padding-left: 20px;
-    display: inline-block; /* Add this to make the form appear inline with the blurb */
-    margin-left: 50px; /* Add margin to separate the blurb and the form */
-    margin-right: 5px;
-    font-family: "Helvetica";
-    background-color: rgba(245, 245, 245, 0.717);
-    padding-bottom: 20px;
-    border-radius: 10px;
-}
-
-form td, tr{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.blurb{
-    display: inline-block;
-    margin-right: 50px;
-    margin-left: 50px;
-    font-family: "Helvetica";
-    font-size: 15pt;
-    color: whitesmoke;
-    padding: 20px; 
-    width: 350px;
-    text-align:center; 
-    background-color: rgba(63, 120, 88, 0.9); 
-    border-radius: 10px;
-    line-height: 30pt;
-}
-
-#login{
-    padding: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(./globe.jpg);
-    background-size:cover ;
-
-}
-
 .text h1{
     font-family: "Helvetica";
     text-align: center;
@@ -131,12 +88,4 @@ form td, tr{
     display: flex;
     justify-content: center;    
     margin: 10px;
-}
-
-#searchButton {
-    border: 1px;
-    margin-left: 5px;
-    padding: 2px;
-    font-family: 'Helvetica';
-    background-color: #bee9b8;
 }

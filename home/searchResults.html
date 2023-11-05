@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css"  rel="stylesheet" href="index.css">
+    <title>home</title>
+</head>
+<body>
+    <div id="topbar">
+        <header>
+            <h1> <img src="../logo.jpg" width="50" height="auto"> GPT Chat</h1>
+        </header>
+        <nav>
+            <ul>
+                <input type="text" id="searchInput" placeholder="Search..">
+                <button id="searchButton">Search</button>
+                <a href="../home/index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="../about/about.html">
+                    <li>ABOUT</li>
+                </a>
+                <a href="../resource/resource.html">
+                    <li>RESOURCE</li>
+                </a>
+                <a href="../post/post.html">
+                    <img src="../postbutton.svg" />
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        <h1>
+            Search Results
+        </h1>
+        <div class="gallery">
+            <div class="column">
+                <div class="img-post" id="caption"data-title="Image">
+                    <img src="./post1.jpg"/>
+                    <p>Image 1 description.</p>
+                </div>
+                <div class="img-post" id="caption"data-title="Image">
+                    <img src="./post3.jpg"/>
+                    <p>Image 3 description.</p>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <section id="socialMedia">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../facebook.svg"/>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../instagram.svg"/>
+                </a>
+                <a href="https://www.linkedin.com/in/" target="_blank">
+                    <img src="../linkedin.svg"/>
+                </a>
+            </section>
+        </footer>
+    </div>
+    
+    <div>
+        <script src="search.js"></script>
+        <script>
+            // Retrieve the search query from the URL parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get("q");
+
+            const imageData = [
+                { src: "post1.jpg", description: "Image 1 description" },
+                { src: "post2.jpg", description: "Image 2 description" },
+                // Add more image data as needed
+            ];
+            const gallery = document.querySelector(".gallery");
+
+            // Filter images based on the search query and display them
+            const filteredImages = imageData.filter(image => image.description.toLowerCase().includes(searchQuery.toLowerCase()));
+            filteredImages.forEach(image => {
+                const imageElement = document.createElement("div");
+                imageElement.innerHTML = `
+                    <img src="${image.src}" alt="${image.description}">
+                    <p>${image.description}</p>
+                `;
+                gallery.appendChild(imageElement);
+            });
+
+        </script>
+    </div>
+
+    
+</body>
+</html>
