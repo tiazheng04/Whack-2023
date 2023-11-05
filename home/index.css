@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family:"Helvetica"
+}
+
+#topbar{
+    background-color: #bee9b8;
+}
+
+header h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
+}
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul a:link{
+    flex-grow:1;
+    text-align:center;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+
+}
+
+nav ul input[type=text]{
+    background-color: rgba(229, 229, 229, 0.776);
+    margin: 0px;
+    margin-left: 50px;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 40%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+}
+
+#socialMedia img{
+    width : 25px;
+    height : 25px;
+    margin : 10px;
+}
+nav img{
+    width : 25px;
+    height : 25px;
+}
+
+form {
+    justify-content: right;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: inline-block; /* Add this to make the form appear inline with the blurb */
+    margin-left: 50px; /* Add margin to separate the blurb and the form */
+    margin-right: 5px;
+    font-family: "Helvetica";
+    background-color: rgba(245, 245, 245, 0.717);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+form td, tr{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blurb{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: "Helvetica";
+    font-size: 15pt;
+    color: whitesmoke;
+    padding: 20px; 
+    width: 350px;
+    text-align:center; 
+    background-color: rgba(63, 120, 88, 0.9); 
+    border-radius: 10px;
+    line-height: 30pt;
+}
+
+#login{
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./globe.jpg);
+    background-size:cover ;
+
+}
+
+.text h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
+}
+
+.img-post img, p{
+    width: 400px;
+    height: auto;
+    font-family: "Helvetica";
+    padding: 10px;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;    
+    margin: 10px;
+}

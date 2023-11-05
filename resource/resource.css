@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar{
+    background-color: #bee9b8;
+
+}
+
+header h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul a:link{
+    flex-grow:1;
+    text-align:center;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+
+
+}
+nav ul input[type=text]{
+    background-color: rgba(229, 229, 229, 0.776);
+    margin: 0px;
+    margin-left: 50px;
+    border:none;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 40px;
+    width: 40%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
+
+
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-family:"Helvetica";
+    color:black;
+    text-decoration:none;
+    padding:10pt;
+}
+
+#socialMedia img{
+    width : 25px;
+    height : 25px;
+    margin : 10px;
+}
+
+nav img{
+    width : 25px;
+    height : 25px;
+}
+
+.Books img{
+    width : 200px;
+    height : 300px;
+}
+
+body{
+    font-family:"Helvetica";
+    line-height: 15pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+}
+
+.website ul a:link{
+    text-decoration:none
+
+}
+
+.heading{
+    padding: 20px;
+}
+
+.Books {
+    padding: 40px;
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+.website{
+    padding: 40px;
+    padding-top: 10px;
+    line-height: 20pt; 
+}

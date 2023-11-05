@@ -7,15 +7,124 @@
     <title>home</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="resource.html">Resource</a> |
-        <a href="post.html">Post</a>
-       </nav>
+    <div id="topbar">
+        <header>
+            <h1>GPT Chat</h1>
+        </header>
+        <nav>
+            <ul>
+                <input type="text" placeholder="Search..">
+                <a href="../home/index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="../about/about.html">
+                    <li>ABOUT</li>
+                </a>
+                <a href="../resource/resource.html">
+                    <li>RESOURCE</li>
+                </a>
+                <a href="../post/post.html">
+                    <img src="../postbutton.svg" />
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="text">
+        <div id="login">
+            <div class="blurb">
+                <h2> Welcome to GPT Chat! </h2>
+                <h2> Connect with people around the globe and transform your perspective!</h2>
+                <h3> <em> GPT stands for Global Perspective Transformation! </em></h3> 
+            </div>
+        
+            <form class = "formInput" action="index.html" method="post">
+                <table>
+                    <tr>
+                        <td colspan="2"> 
+                            <h2> Login </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Email: </td>
+                        <td>
+                            <input type="text" name="email" placeholder="Enter your email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Password:</td>
+                        <td>
+                            <input type="password" placeholder="Enter password" name="password">
+                        </td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">
+                        <input type="reset" value="Cancel"/>
+                        <input type="submit" value="Login"/>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <a href="../signup/signup.html">
+                                <p> Don't have an account? Sign up </p>
+                            </a>
+                        </td>
+                        </tr>
+
+                </table>
+            </form>
+        </div>
+        <h1>
+            Most Recent Posts
+        </h1>
+        <div class="gallery">
+            <div class="column">
+                <div class="img-post">
+                    <img src="./post1.jpg"/>
+                    <p>Image 1 description.</p>
+                </div>
+                <div class="img-post">
+                    <img src="./post3.jpg"/>
+                    <p>Image 3 description.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="img-post">
+                    <img src="./post2.jpg"/>
+                    <p>Image 2 description.</p>
+                </div>
+               
+                <div class="img-post">
+                    <img src="./post5.jpg"/>
+                    <p>Image 5 description.</p>
+                </div>
+                <div class="img-post">
+                    <img src="./post4.jpg"/>
+                    <p>Image 4 description.</p>
+                </div>
+            </div>
+            
+        </div>
+    
+        <footer>
+            <section id="socialMedia">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../facebook.svg"/>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../instagram.svg"/>
+                </a>
+                <a href="https://www.linkedin.com/in/" target="_blank">
+                    <img src="../linkedin.svg"/>
+                </a>
+            </section>
+        </footer>
+    </div>
+    
     <div>
         <script src="search.js"></script>
         <script src="index.js"></script>
     </div>
+
     
 </body>
 </html>
