@@ -67,3 +67,48 @@ nav ul input[type=text]{
     outline: 0;
 }
 
+button#upload-btn{
+    border: none;
+    background-color: #bee9b8;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#upload{
+    display: none;
+}
+
+button#actual-upload{
+    border: solid 1px black;
+}
+
+#posting{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+
+#image{
+    max-width: 35vw;
+}
+
+#img-box{
+    padding-left: 2vw;
+}
+
+#title{
+    height: 7vh;
+    width: 40vw;
+    padding-left: 2%;
+    margin-bottom: 5vh;
+}
+
+
+
+#story{
+    height: 40vh;
+    width: 40vw;
+}
+
