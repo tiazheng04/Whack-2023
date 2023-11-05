@@ -23,22 +23,29 @@
                 <a href="../resource/resource.html">
                     <li>RESOURCE</li>
                 </a>
-                <button id="upload-btn">
+                <button id="upload-btn" onclick="test()">
                     <img src="../postbutton.svg" />
                 </button>
             </ul>
         </nav>
     </div>
-    <form id="upload">
+<div id="upload-box">
+    <input type="file" id="photo" />
+    <button id="upload" onclick="uploadImage()">Upload Image</button>
+    <img id="image" src="" alt="Uploaded Image">
+</div>
+
+
+    <!-- <form id="upload"> -->
         <!-- <div id="posting"> -->
-            <div id="img-box">
+            <!-- <div id="img-box">
                 <label for="photo">Select an Image to Upload:</label>
                 <input type="file" id="photo"/>
                 <div id="selected-photo">
                     <img id="image" src="">
                     <button id="actual-upload" onclick="uploadImage()">Display Selected Image</button>
                 </div>
-            </div>
+            </div> -->
             <!-- <div id="text-box">
                 <div id="title-box"> 
                     <label for="title">Name Your Story:</label>
@@ -51,7 +58,6 @@
             <!-- </div>    -->
         <!-- </div> -->
     <!-- <button id="posts-btn">Share Story</button>  -->
-    </div>
 
     <footer>
         <section id="socialMedia">
@@ -71,7 +77,8 @@
    
         <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-storage.js"></script>
-        <script>
+        <script src="post.js"></script>
+        <!-- <script>
            // Your Firebase configuration
            const firebaseConfig = {
             apiKey: "AIzaSyC3wDWowiC9lggMi0G389LvaSyutnICTvw",
@@ -107,7 +114,7 @@
                     alert('Image upload failed');
                  });
            }
-        </script>
+        </script> -->
     </div>
     
 </body>
