@@ -2,55 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.text {
-    background-image:url("./culture.png") ;
-    background-size:cover ;
-    padding-left:30pt ;
-    padding-right: 30pt;
-    padding-top: 10;
+
+header{
+    font-family:"Helvetica"
 }
 
 #topbar{
     background-color: #bee9b8;
     padding: 0;
     margin: 0;
-}
-header h1{
-    font-family: "Helvetica";
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 3pt;
-    font-size: 40pt;
-    color: rgb(63, 120, 88);
-}
-.ABOUTUS{
-    /*color:whitesmoke;*/
-    font-family:"Helvetica";
-    line-height: 14pt;
-    font-weight: lighter;
-    letter-spacing:1px;
-}
-.Mission{
-    /*color:whitesmoke;*/
-    font-family:"Helvetica";
-    line-height: 14pt;
-    font-weight: lighter;
-    letter-spacing:1px;
-}
-.Members{
-    /*color:whitesmoke;*/
-    font-family:"Helvetica";
-    line-height: 14pt;
-    font-weight: lighter;
-    letter-spacing:1px;
-}
-.text{
-    background-color: #f5f5f5d8;
-    padding:20pt
-}
-
-header{
-    font-family:"Helvetica"
 }
 
 nav ul{
@@ -80,6 +40,56 @@ nav ul input[type=text]{
     outline: 0;
 }
 
+.text {
+    background-image:url("./culture.png") ;
+    background-size:cover ;
+    padding-top: 10;
+}
+
+
+header h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
+}
+
+.box{
+    background-color: #f5f5f5d8;
+}
+
+.ABOUTUS{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+    padding: 40px;
+}
+.ABOUTUS h5{
+    color: red;
+    font-style: italic;
+    font-size: 16pt;
+}
+.Mission{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+    padding: 40px;
+}
+.Members{
+    /*color:whitesmoke;*/
+    font-family:"Helvetica";
+    line-height: 14pt;
+    font-weight: lighter;
+    letter-spacing:1px;
+    padding: 40px;
+}
+
 footer{
     display: flex;
     justify-content: right;
@@ -103,7 +113,8 @@ nav img{
 
 nav ul input[type=text]{
     background-color: rgba(229, 229, 229, 0.776);
-    margin: 0px;;
+    margin: 0px;
+    margin-left: 50px;
     border:none;
     border-radius: 5px;
     font-size: 17px;

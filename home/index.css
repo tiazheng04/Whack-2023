@@ -11,6 +11,14 @@ header{
     background-color: #bee9b8;
 }
 
+header h1{
+    font-family: "Helvetica";
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 3pt;
+    font-size: 40pt;
+    color: rgb(63, 120, 88);
+}
 nav ul{
     list-style:none;
     display:flex;
@@ -28,7 +36,8 @@ nav ul a:link{
 
 nav ul input[type=text]{
     background-color: rgba(229, 229, 229, 0.776);
-    margin: 0px;;
+    margin: 0px;
+    margin-left: 50px;
     border:none;
     border-radius: 5px;
     font-size: 17px;
@@ -60,6 +69,8 @@ nav img{
 
 form {
     justify-content: right;
+    padding-top: 30px;
+    padding-left: 20px;
     display: inline-block; /* Add this to make the form appear inline with the blurb */
     margin-left: 50px; /* Add margin to separate the blurb and the form */
     margin-right: 5px;
@@ -86,6 +97,7 @@ form td, tr{
     text-align:center; 
     background-color: rgba(63, 120, 88, 0.9); 
     border-radius: 10px;
+    line-height: 30pt;
 }
 
 #login{
@@ -98,16 +110,7 @@ form td, tr{
 
 }
 
-h1{
-    font-family: "Helvetica";
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 3pt;
-    font-size: 40pt;
-    color: rgb(63, 120, 88);
-}
-
-header{
+.text h1{
     font-family: "Helvetica";
     text-align: center;
     padding-top: 30px;
@@ -119,14 +122,13 @@ header{
 .img-post img, p{
     width: 400px;
     height: auto;
-    margin: 10px;
-    flex: 50%;
     font-family: "Helvetica";
+    padding: 10px;
+
 }
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;    
+    justify-content: center;    
+    margin: 10px;
 }
