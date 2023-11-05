@@ -57,6 +57,7 @@ form {
     font-family: "Helvetica";
     background-color: rgba(245, 245, 245, 0.717);
     padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 form td, tr{
@@ -71,10 +72,11 @@ form td, tr{
     font-family: "Helvetica";
     font-size: 15pt;
     color: whitesmoke;
-    padding: 10px; 
+    padding: 20px; 
     width: 350px;
-    text-align: center; 
+    text-align:center; 
     background-color: rgba(63, 120, 88, 0.9); 
+    border-radius: 10px;
 }
 
 #login{
